@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <!-- BODY
+    bg-stone-200 = cor do fundo
+    flex-col = em coluna
+  -->
+  <body class="bg-stone-200 flex flex-col">
+    <!-- SEÇÃO LATERAL DIREITA PARA EXIBIR A LISTA DE ITENS DO CARRINHO DE COMPRAS
+      right-[-360px] = escondida ao carregar a página; quando clicar no ícone do carrinho, através do evento click associado ao botão
+      abrir-carrinho, vai ser deslocada à esquerda (right-[0px]); e novamente escondida (right-[-360px]) através do click no botão
+      fechar-carrinho.
+      fixed top-0 = fixado no topo, posição 0
+      bg-slate-950 = cor do fundo
+      h-screen = ocupar a altura inteira da página
+      w-[360px] = largura da seção
+      text-slate-200 = cor da fonte branca
+      z-50 = para que a seção possa sobrepor o header
+      duration-200 = tempo que a seção vai levar para ocupar o novo lugar (equivalente a um atraso)
+      border-l = borda à esquerda
+      border-slate-200 = cor da borda
+      p-5 = padding
+      flex-col = objetos numa única coluna
+      justify-between = alinhamento justificado
+    -->
+    <section
+      id="carrinho"
+      class="fixed top-0 right-[-360px] bg-slate-950 h-screen w-[360px] text-slate-200 z-50 duration-200 border-l border-slate-200 p-5 flex flex-col justify-between"
+    >
+      <!-- CABEÇALHO DO CARRINHO
+        justify-between = alinhamento justificado
+        m-4 = margem  
+      -->
+      <div id="cabecalho-carrinho" class="flex justify-between m-4">
+        <p>Meu carrinho</p>
+        <button id="fechar-carrinho">
+          <!--
+            fa-solid = sólido
+            circle-xmark = circular
+          -->
+          <i class="fa-solid fa-circle-xmark"></i>
+        </button>
+      </div>
+      <!--
+        h-3/5 = três quintos do tamanho total da tela
+        overflow-y-auto = ajuste automático no eixo y, inclusive, exibe um scroll
+        flex-col = objetos numa única coluna
+        gap-2 = espaçamento regular entre dois elementos
+      -->
+      <section
+        id="produtos-carrinho"
+        class="h-3/5 overflow-y-auto flex flex-col gap-2"
+      ></section>
+      <p id="preco-total" class="bg-slate-200 text-green-800 rounded-sm pl-5">
+        Total: $0
+      </p>
+      <!-- BOTÃO FINALIZAR COMPRA
+        bg-slate-200 = cor do fundo branca
+        text-slate-900 = for da fonte
+        p-1 = padding
+      -->
+      <button
+        id="finalizar-compra"
+        class="bg-slate-200 text-slate-900 p-1 hover:text-slate-200 hover:bg-slate-900"
+      >
+        Finalizar Compra
+      </button>
+    </section>
+    <!-- HEADER
+      text-xl = ???      
+      bg-slate-950 = cor de fundo 
+      shadow-xl = tamanho do sombreado 
+      shadow-slate-400 = cor do sombreado abaixo do header
+      px-8 = padding no eixo x
+      py-4 = padding no eixo y
+      justify-between = alinhamento justificado
+      sticky top-0 = grudar o header no topo, posição 0 (o cabeçalho sempre será exibido se houver scroll)
+      z-10 = não expandir para cima do header
+    -->
+    <header
+      class="flex text-xl bg-slate-950 shadow-xl shadow-slate-400 px-8 py-4 justify-between sticky top-0 z-10"
+    >
+      <a href="./">
+        <!-- IMAGEM DO LOGO
+        h-16 = altura da imagem -->
+        <img
+          class="h-16"
+          src="./assets/logo/hashtag.svg"
+          alt="Logo do Magazine Hashtag"
+        />
+      </a>
+      <!-- DIVISÃO CONTENDO OS BOTÕES DE CARRINHO E HISTÓRICO
+        text-slate-200 = cor da fonte branco
+        gap-2 = distância entre os objetos filhos
+        items-end = alinhamento vertical inferior
+        mx-2 = margem no eixo x
+      -->
+      <div class="text-slate-200 flex gap-2 items-end mx-2">
+        <!-- BOTÃO ABRIR CARRINHO
+          mx-2 = margem do eixo x
+        -->
+        <button id="abrir-carrinho" class="mx-2">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+        <a href="./pedidos.html">
+          <!-- BOTÃO FECHAR CARRINHO
+            mr-2 = margem direita
+          -->
+          <button class="mr-2">
+            <i class="fa-solid fa-user"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+    <main class="flex flex-col items-center">
+      <section id="filtros" class="p-10 flex">
+        <div class="px-2">
+          <input
+            id="exibir-todos"
+            type="radio"
+            name="filtro"
+            class="peer hidden"
+            checked
+          />
+          <label
+            for="exibir-todos"
+            class="peer-checked:bg-slate-950 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-xl select-none cursor-pointer"
+            >Todos</label
+          >
+        </div>
+        <div class="px-2">
+          <input
+            id="exibir-masculinos"
+            type="radio"
+            name="filtro"
+            class="peer hidden"
+          />
+          <label
+            for="exibir-masculinos"
+            class="peer-checked:bg-slate-950 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-xl select-none cursor-pointer"
+            >Masculinos</label
+          >
+        </div>
+        <div class="px-2">
+          <input
+            id="exibir-femininos"
+            type="radio"
+            name="filtro"
+            class="peer hidden"
+          />
+          <label
+            for="exibir-femininos"
+            class="peer-checked:bg-slate-950 peer-checked:text-slate-200 peer-checked:font-bold p-2 rounded-xl select-none cursor-pointer"
+            >Femininos</label
+          >
+        </div>
+      </section>
+      <!-- SEÇÃO DO CATÁLOGO DE PRODUTOS
+        flex-wrap = alinhamento dinâmico do conteúdo
+        p-10 = padding
+        justify-center = alinhamento pelo centro
+        gap-10 = espaço entre os cards
+      -->
+      <section
+        id="container-produto"
+        class="flex flex-wrap p-10 justify-center gap-10"
+      ></section>
+    </main>
+    <!-- Após carregar o conteúdo do main, vai carregar o catálogo de produtos em container-produto.
+      type="module" = necessário após o "import { inicializarCarrinho } em main.js" e "export function inicializarCarrinho() em menuCarrinho.js"
+    -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

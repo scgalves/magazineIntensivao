@@ -1,0 +1,4 @@
+/* Biblioteca de estilos */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
