@@ -15,11 +15,11 @@ A página de finalização da venda é meramente informativa, portanto, não faz
 
 # Layout
 ![Imagem 1](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-1.jpg)
-![Imagem 2](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-2.jpg)
-![Imagem 3](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-3.jpg)
-![Imagem 4](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-4.jpg)
-![Imagem 5](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-5.jpg)
-![Imagem 6](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-6.jpg)
+![Imagem 2](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-2.jpg)
+![Imagem 3](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-3.jpg)
+![Imagem 4](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-4.jpg)
+![Imagem 5](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-5.jpg)
+![Imagem 6](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-6.jpg)
 
 # Tecnologias utilizadas
 ## Back end
