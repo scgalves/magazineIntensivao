@@ -1,4 +1,5 @@
 # magazineIntensivao
+https://github.com/scgalves/magazineIntensivao/blob/main/LICENSE
 
 # Sobre o projeto
 Projeto desenvolvido durante o curso **Intensivão de JavaScript** da HashTag Treinamentos, iniciado em 28/08/2023 e finalizado em 01/09/2023. Trata-se de uma página de vendas de roupas masculinas e femininas, onde o usuário vai poder filtrar, dentre os produtos ofertados:
