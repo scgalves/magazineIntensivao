@@ -14,7 +14,7 @@ Ao clicar no botão "Finalizar Compra" será aberta uma página com todas as lis
 A página de finalização da venda é meramente informativa, portanto, não faz comunicação com nenhuma operadora de cartão de crédito.
 
 # Layout
-![Imagem 1](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-1.jpg)
+![Imagem 1](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-1.jpg)
 ![Imagem 2](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-2.jpg)
 ![Imagem 3](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-3.jpg)
 ![Imagem 4](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-4.jpg)
