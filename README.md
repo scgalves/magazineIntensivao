@@ -27,6 +27,7 @@ A página de finalização da venda é meramente informativa, portanto, não faz
 ## Front end
 - HTML / CSS / JavaScript
 - Vite.JS
+- Tailwind CSS
 # Como executar o projeto
 ```bash
 # Vá para a pasta, via Prompt, onde você costuma salvar os seus projeto. Não crie nenhuma nova pasta, neste momento, que seja
