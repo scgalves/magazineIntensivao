@@ -36,7 +36,8 @@ npm create vite@latest
 
 # Pressione Y e Enter para instalar o pacote.
 
-# Project name: digite um nome para o projeto e pressione Enter. Esta será a pasta onde serão salvos os arquivos do seu projeto.
+# Project name: digite um nome para o projeto e pressione Enter. Esta será a pasta onde serão salvos os arquivos do seu
+# projeto.
 
 # Package name: pressione Enter.
 
@@ -52,8 +53,8 @@ npm run dev
 
 # Será exibida uma URL para exibir o conteúdo da página (http://localhost:5173)
 
-# Clonar o repositório. Para que não seja criada uma nova pasta magazineIntensivao dentro da sua pasta deste projeto, você pode
-# baixar os arquivos do projeto e descompactá-los dentro da sua pasta do projeto. Ou execute:
+# Clonar o repositório. Para que não seja criada uma nova pasta magazineIntensivao dentro da sua pasta deste projeto, você
+# pode baixar os arquivos do projeto e descompactá-los dentro da sua pasta do projeto. Ou execute:
 git clone https://github.com/scgalves/magazineIntensivao```
 
 # Autor
