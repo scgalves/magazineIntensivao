@@ -57,7 +57,10 @@ npm run dev
 
 # Clonar o repositório. Para que não seja criada uma nova pasta magazineIntensivao dentro da sua pasta deste projeto, você
 # pode baixar os arquivos do projeto e descompactá-los dentro da sua pasta do projeto. Ou execute:
-git clone https://github.com/scgalves/magazineIntensivao```
+git clone https://github.com/scgalves/magazineIntensivao
+```
+# Referências
+[HasTag Treinamentos](https://www.hashtagtreinamentos.com/)
 
 # Autor
 Sérgio Carlos Guimarães Alves
