@@ -3,10 +3,9 @@
 
 # Sobre o projeto
 Projeto desenvolvido durante o curso **Intensivão de JavaScript** da HashTag Treinamentos, iniciado em 28/08/2023 e finalizado em 01/09/2023. Trata-se de uma página de vendas de roupas masculinas e femininas, onde o usuário vai poder filtrar, dentre os produtos ofertados:
-- todos os produtos;
-- produtos masculinos;
-- produtos femininos.
-  
+* todos os produtos;
+* produtos masculinos;
+* produtos femininos.  
 Ao clicar no ícone do carrinho que está logo abaixo da imagem de cada produto, este produto será acrescentado a uma lista de produtos selecionados.
 A lista de produtos "Meu carrinho" poderá ser exibida ao clicar no ícone do carrinho no topo da página, à direita. Os itens desta lista permitem alteração na quantidade (- ou +). Os itens também podem ser removidos da lista.
 Ao clicar no botão "Finalizar Compra" será aberta uma página para o usuário fazer um cadastro com "Seus Dados" (dados pessoais), "Pagamento e Entrega" (dados do cartão de crédito e endereço de entrega) e a lista de produtos, quantidades escolhidas e o total da compra.
