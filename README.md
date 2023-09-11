@@ -27,8 +27,11 @@ A página de finalização da venda é meramente informativa, portanto, não faz
 - Vite.JS
 # Como executar o projeto
 ```bash
-# Vá para a pasta, via Prompt, onde você costuma salvar os seus projeto. Não crie nenhuma nova pasta, neste momento, que seja relacionada a este projeto; o Vite vai se encarregar de criar essa pasta.
-# Execute o comando descrito em https://vitejs.dev/guide/. IMPORTANTE: O Node.js já deve estar previamente instalado no seu computador! Se ainda não instalou o Node.js, providencie baixar o instalador a partir de https://nodejs.org/en/download, conforme o seu sistema operacional. Em seguida, execute o comando:
+# Vá para a pasta, via Prompt, onde você costuma salvar os seus projeto. Não crie nenhuma nova pasta, neste momento, que seja
+# relacionada a este projeto; o Vite vai se encarregar de criar essa pasta.
+# Execute o comando descrito em https://vitejs.dev/guide/. IMPORTANTE: O Node.js já deve estar previamente instalado no seu
+# computador! Se ainda não instalou o Node.js, providencie baixar o instalador a partir de https://nodejs.org/en/download,
+# conforme o seu sistema operacional. Em seguida, execute o comando:
 npm create vite@latest
 
 # Pressione Y e Enter para instalar o pacote.
@@ -49,8 +52,11 @@ npm run dev
 
 # Será exibida uma URL para exibir o conteúdo da página (http://localhost:5173)
 
-# Clonar o repositório. Para que não seja criada uma nova pasta magazineIntensivao dentro da sua pasta deste projeto, você pode baixar os arquivos do projeto e descompactá-los dentro da sua pasta do projeto. Ou execute:
-git clone https://github.com/scgalves/magazineIntensivao
+# Clonar o repositório. Para que não seja criada uma nova pasta magazineIntensivao dentro da sua pasta deste projeto, você pode
+# baixar os arquivos do projeto e descompactá-los dentro da sua pasta do projeto. Ou execute:
+git clone https://github.com/scgalves/magazineIntensivao```
 
-
-```
+# Autor
+Sérgio Carlos Guimarães Alves
+scgalves@gmail.com
+https://www.linkedin.com/in/sergiocarlosguimaresalves/
