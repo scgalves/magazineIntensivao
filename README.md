@@ -64,5 +64,7 @@ git clone https://github.com/scgalves/magazineIntensivao
 
 # Autor
 Sérgio Carlos Guimarães Alves
-https://www.linkedin.com/in/sergiocarlosguimaresalves/
+
 scgalves@gmail.com
+
+https://www.linkedin.com/in/sergiocarlosguimaresalves/
