@@ -1,3 +1,4 @@
+"homepage": "https://{pages-endpoint}/{repo}",
 {
   "name": "magazine-hashtag",
   "private": true,
