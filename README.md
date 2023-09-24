@@ -61,7 +61,7 @@ npm run dev
 git clone https://github.com/scgalves/magazineIntensivao
 ```
 # Referências
-[HasTag Treinamentos](https://www.hashtagtreinamentos.com/)
+[HashTag Treinamentos](https://www.hashtagtreinamentos.com/)
 
 # Autor
 Sérgio Carlos Guimarães Alves
