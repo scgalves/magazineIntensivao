@@ -14,12 +14,12 @@ Ao clicar no botão "Finalizar Compra" será aberta uma página com todas as lis
 A página de finalização da venda é meramente informativa, portanto, não faz comunicação com nenhuma operadora de cartão de crédito.
 
 # Layout
-![Imagem 1](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-1.jpg)
-![Imagem 2](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-2.jpg)
-![Imagem 3](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-3.jpg)
-![Imagem 4](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-4.jpg)
-![Imagem 5](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-5.jpg)
-![Imagem 6](https://github.com/scgalves/magazineIntensivao/assets/presentation/presentation-6.jpg)
+![Imagem 1](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-1.jpg)
+![Imagem 2](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-2.jpg)
+![Imagem 3](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-3.jpg)
+![Imagem 4](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-4.jpg)
+![Imagem 5](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-5.jpg)
+![Imagem 6](https://github.com/scgalves/magazineIntensivao/blob/main/assets/presentation/presentation-6.jpg)
 
 # Tecnologias utilizadas
 ## Back end
@@ -27,6 +27,7 @@ A página de finalização da venda é meramente informativa, portanto, não faz
 ## Front end
 - HTML / CSS / JavaScript
 - Vite.JS
+- Tailwind CSS
 # Como executar o projeto
 ```bash
 # Vá para a pasta, via Prompt, onde você costuma salvar os seus projeto. Não crie nenhuma nova pasta, neste momento, que seja
@@ -60,7 +61,7 @@ npm run dev
 git clone https://github.com/scgalves/magazineIntensivao
 ```
 # Referências
-[HasTag Treinamentos](https://www.hashtagtreinamentos.com/)
+[HashTag Treinamentos](https://www.hashtagtreinamentos.com/)
 
 # Autor
 Sérgio Carlos Guimarães Alves
